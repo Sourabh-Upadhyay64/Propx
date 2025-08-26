@@ -1,12 +1,43 @@
-# React + Vite
+PopX – Qualifier Task
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a React (Vite) implementation of the given Adobe XD design for the PopX app interface.
+The mobile app UI is centered on the page, pixel-perfect, and includes smooth navigation across all screens.
 
-Currently, two official plugins are available:
+🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 Hosted Link: https://propxtask.netlify.app/account
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✨ Features
+
+📱 Pixel-perfect design matching the Adobe XD mockups
+
+🎨 Mobile-centered UI frame (360×740) with clean layout
+
+🔄 Routing with react-router-dom (Welcome → Login → Signup → Account)
+
+✅ Form validation basics (disable button until fields are valid)
+
+🌐 Deploy-ready configs for both Netlify and Vercel
+
+🧹 Clean, formatted, and modular codebase
+
+📸 Screens
+
+Welcome Screen – Entry point with Create Account / Login
+
+Login Screen – Email + Password login form
+
+Signup Screen – Full registration with agency toggle
+
+Account Settings – Profile info with editable avatar placeholder
+
+🛠️ Tech Stack
+
+React 18
+
+Vite
+
+React Router DOM v6
+
+CSS (custom, lightweight)

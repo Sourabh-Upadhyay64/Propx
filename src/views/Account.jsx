@@ -2,7 +2,7 @@ import { useLocation } from 'react-router-dom'
 
 export default function Account(){
   const { state } = useLocation()
-  const profile = state?.profile || {name:'Marry Doe', email:'marry@gmail.com'}
+  const profile = state?.profile || {name:'Sourabh Upadhyay', email:'sourabh@gmail.com'}
 
   return (
     <div>
@@ -12,15 +12,15 @@ export default function Account(){
       <div style={{padding:'16px 0'}}>
         <div className="profile">
           <div className="avatar" style={{position:'relative'}}>
-            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=240&q=80&auto=format&fit=crop" alt="avatar"/>
+            <img src="https://dthezntil550i.cloudfront.net/yz/latest/yz2305290715120970024829036/2f701e04-f057-476f-b6ca-7c4872a873b2.png" alt="avatar"/>
             <div className="badge">✚</div>
           </div>
           <div>
-            <div style={{fontWeight:700}}>{profile.name || 'Marry Doe'}</div>
-            <div className="p" style={{margin:0, textTransform:'capitalize'}}>{profile.email || 'marry@gmail.com'}</div>
+            <div style={{fontWeight:700}}>{profile.name || 'Sourabh Upadhyay'}</div>
+            <div className="p" style={{margin:0, textTransform:'capitalize'}}>{profile.email || 'sourabh@gmail.com'}</div>
           </div>
         </div>
-        <p className="p" style={{marginTop:16}}>Lorem ipsum dolor sit amet, consectetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam</p>
+        <p className="p" style={{marginTop:16}}>Hi there , Welcome to your account section</p>
       </div>
     </div>
   )
