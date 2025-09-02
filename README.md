@@ -5,7 +5,7 @@ The mobile app UI is centered on the page, pixel-perfect, and includes smooth na
 
 🚀 Live Demo
 
-🔗 Hosted Link: https://propxtask.netlify.app/account
+🔗 Hosted Link: https://propxtask.netlify.app/
 
 
 ✨ Features
